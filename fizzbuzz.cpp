@@ -16,6 +16,7 @@ void fizzbuzz(int a, int b)
     int i,c = b-a;
     for(i=0;i<c;i++)
     {
+        // Nice. Using 15 condition first makes it more efficient. Good thinking (+1 point). 
         if(a%15==0)
         {
             arr[i] = "FizzBuzz";
@@ -34,8 +35,13 @@ void fizzbuzz(int a, int b)
         }
         a++;
     }
+    // The question asks for a string array to be returned, not printing to the console so -1 point.
     for(i=0;i<c;i++)
     {
         cout<<arr[i]<<" ";
     }
 }
+
+// Overall -
+// It's nice and optimised. And also +1 point for actually starting and completing the code, unlike me.
+// Total points = 9/10.
